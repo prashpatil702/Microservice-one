@@ -15,7 +15,6 @@ public class MS1Controller {
 	@GetMapping("/endPoint")
 	public String getValue()
 	{
-		System.out.println("Helloooo");
 		return config.getValue();
 	}
 }
